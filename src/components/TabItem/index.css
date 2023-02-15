@@ -1,0 +1,33 @@
+.tab-item-container {
+  padding-right: 0px;
+  margin-bottom: 40px;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 2px;
+  padding-right: 2px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border: 1px solid #db1c48;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.active-tab-btn {
+  background-color: #db1c48;
+  color: 'white';
+  border: 1px solid #db1c48;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+}
